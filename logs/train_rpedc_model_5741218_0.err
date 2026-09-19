@@ -1,0 +1,30 @@
+usage: train_rpedc_models.py [-h] --manifest MANIFEST --splits SPLITS
+                             --out_dir OUT_DIR --arch
+                             {unet,unetpp,fpn,deeplabv3plus}
+                             [--encoder ENCODER]
+                             [--encoder_weights {imagenet,none}]
+                             [--epochs EPOCHS] [--bs BS] [--workers WORKERS]
+                             [--lr LR] [--weight_decay WEIGHT_DECAY]
+                             [--bce_weight BCE_WEIGHT]
+                             [--dice_weight DICE_WEIGHT]
+                             [--pos_weight POS_WEIGHT] [--threshold THRESHOLD]
+                             [--patience PATIENCE] [--seed SEED] [--amp]
+train_rpedc_models.py: error: the following arguments are required: --manifest, --splits, --out_dir, --arch
+/var/spool/slurm/d/job5741219/slurm_script: line 51: --manifest: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 53: --splits: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 55: --out_dir: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 57: --arch: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 59: --encoder: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 61: --encoder_weights: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 63: --epochs: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 65: --bs: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 67: --workers: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 69: --lr: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 71: --weight_decay: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 73: --bce_weight: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 75: --dice_weight: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 77: --pos_weight: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 79: --threshold: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 81: --patience: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 83: --seed: command not found
+/var/spool/slurm/d/job5741219/slurm_script: line 85: --amp: command not found

@@ -1,0 +1,11 @@
+Evaluating: unetpp
+Node: i17n10.ocelote.hpc.arizona.edu
+Start time: Tue Aug  4 11:58:18 MST 2026
+Architecture: unetpp
+Subject-level mean Dice: 0.8973302086565978
+Subject-level mean IoU: 0.8183971567897369
+Subject-level mean HD95: 12.414407854945214
+Subject-level thickness MAE: 1.8962041171893862
+Saved results to: reports/segmentation/unetpp
+Evaluation completed: unetpp
+End time: Tue Aug  4 12:01:45 MST 2026

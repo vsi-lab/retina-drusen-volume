@@ -1,0 +1,43 @@
+Architecture: unet
+Array task: 0
+Node: i17n12.ocelote.hpc.arizona.edu
+Start time: Tue Aug  4 01:04:37 MST 2026
+Python: /groups/eungjoolee/puneethsamarla/conda_envs/eda310/bin/python
+Tue Aug  4 01:04:37 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:0B:00.0 Off |                    0 |
+| N/A   22C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Device: cuda
+GPU: Tesla P100-PCIE-16GB
+Architecture: unet
+Training slices: 9315
+Validation slices: 2012
+Epoch 001 | train_loss=0.1596 train_dice=0.7577 | val_loss=0.0927 val_dice=0.8776 val_iou=0.7818 val_precision=0.8508 val_recall=0.9061 val_specificity=0.9980 val_mcc=0.8764 | lr=3.00e-04 time=605.3s [BEST]
+Epoch 002 | train_loss=0.0878 train_dice=0.8772 | val_loss=0.0813 val_dice=0.8937 val_iou=0.8078 val_precision=0.8745 val_recall=0.9138 val_specificity=0.9983 val_mcc=0.8925 | lr=3.00e-04 time=578.6s [BEST]
+Epoch 003 | train_loss=0.0839 train_dice=0.8826 | val_loss=0.0803 val_dice=0.8958 val_iou=0.8113 val_precision=0.9017 val_recall=0.8900 val_specificity=0.9988 val_mcc=0.8945 | lr=3.00e-04 time=578.5s [BEST]
+Epoch 004 | train_loss=0.0790 train_dice=0.8899 | val_loss=0.0795 val_dice=0.8968 val_iou=0.8129 val_precision=0.8859 val_recall=0.9079 val_specificity=0.9985 val_mcc=0.8955 | lr=3.00e-04 time=578.5s [BEST]
+Epoch 005 | train_loss=0.0776 train_dice=0.8916 | val_loss=0.0812 val_dice=0.8938 val_iou=0.8081 val_precision=0.8770 val_recall=0.9113 val_specificity=0.9984 val_mcc=0.8926 | lr=3.00e-04 time=578.4s 
+Epoch 006 | train_loss=0.0757 train_dice=0.8944 | val_loss=0.0757 val_dice=0.9016 val_iou=0.8208 val_precision=0.8954 val_recall=0.9079 val_specificity=0.9987 val_mcc=0.9004 | lr=3.00e-04 time=578.5s [BEST]
+Epoch 007 | train_loss=0.0740 train_dice=0.8969 | val_loss=0.0786 val_dice=0.9005 val_iou=0.8190 val_precision=0.8949 val_recall=0.9062 val_specificity=0.9987 val_mcc=0.8992 | lr=3.00e-04 time=578.3s 
+Epoch 008 | train_loss=0.0726 train_dice=0.8989 | val_loss=0.0802 val_dice=0.8960 val_iou=0.8116 val_precision=0.8893 val_recall=0.9028 val_specificity=0.9986 val_mcc=0.8947 | lr=3.00e-04 time=578.4s 
+Epoch 009 | train_loss=0.0715 train_dice=0.9006 | val_loss=0.0755 val_dice=0.9009 val_iou=0.8197 val_precision=0.8739 val_recall=0.9297 val_specificity=0.9983 val_mcc=0.9001 | lr=3.00e-04 time=578.4s 
+Epoch 010 | train_loss=0.0713 train_dice=0.9007 | val_loss=0.0747 val_dice=0.9033 val_iou=0.8237 val_precision=0.8923 val_recall=0.9146 val_specificity=0.9986 val_mcc=0.9021 | lr=3.00e-04 time=578.3s [BEST]
+Training completed. Best validation Dice: 0.9033
+Completed architecture: unet
+End time: Tue Aug  4 02:42:13 MST 2026

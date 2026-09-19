@@ -1,0 +1,135 @@
+==========================================================================================
+DRUSEN VOLUME AGREEMENT ANALYSIS
+==========================================================================================
+
+##########################################################################################
+UNETPP
+##########################################################################################
+
+k = 2.0
+  MAE: 0.009899 mm3
+  RMSE: 0.011625 mm3
+  Bias: 0.002611 mm3
+  Median relative error: 24.45%
+  Pearson r: 0.9993
+  Spearman rho: 0.9868
+  ICC(A,1): 0.9993
+  Bland-Altman: 0.002611 [-0.020429, 0.025651] mm3
+
+k = 2.5
+  MAE: 0.008805 mm3
+  RMSE: 0.010270 mm3
+  Bias: 0.002285 mm3
+  Median relative error: 25.19%
+  Pearson r: 0.9994
+  Spearman rho: 0.9868
+  ICC(A,1): 0.9994
+  Bland-Altman: 0.002285 [-0.018079, 0.022650] mm3
+
+k = 3.0
+  MAE: 0.007814 mm3
+  RMSE: 0.009144 mm3
+  Bias: 0.002156 mm3
+  Median relative error: 24.27%
+  Pearson r: 0.9995
+  Spearman rho: 0.9912
+  ICC(A,1): 0.9995
+  Bland-Altman: 0.002156 [-0.015917, 0.020230] mm3
+
+k = 3.5
+  MAE: 0.006894 mm3
+  RMSE: 0.008199 mm3
+  Bias: 0.002176 mm3
+  Median relative error: 21.63%
+  Pearson r: 0.9995
+  Spearman rho: 0.9912
+  ICC(A,1): 0.9995
+  Bland-Altman: 0.002176 [-0.013901, 0.018254] mm3
+
+k = 4.0
+  MAE: 0.006063 mm3
+  RMSE: 0.007430 mm3
+  Bias: 0.002276 mm3
+  Median relative error: 22.43%
+  Pearson r: 0.9996
+  Spearman rho: 0.9868
+  ICC(A,1): 0.9996
+  Bland-Altman: 0.002276 [-0.012110, 0.016663] mm3
+
+##########################################################################################
+DEEPLABV3PLUS
+##########################################################################################
+
+k = 2.0
+  MAE: 0.012790 mm3
+  RMSE: 0.018905 mm3
+  Bias: -0.004000 mm3
+  Median relative error: 21.02%
+  Pearson r: 0.9986
+  Spearman rho: 0.9780
+  ICC(A,1): 0.9982
+  Bland-Altman: -0.004000 [-0.041583, 0.033583] mm3
+
+k = 2.5
+  MAE: 0.011525 mm3
+  RMSE: 0.017565 mm3
+  Bias: -0.004354 mm3
+  Median relative error: 22.16%
+  Pearson r: 0.9986
+  Spearman rho: 0.9956
+  ICC(A,1): 0.9983
+  Bland-Altman: -0.004354 [-0.038966, 0.030259] mm3
+
+k = 3.0
+  MAE: 0.010516 mm3
+  RMSE: 0.016336 mm3
+  Bias: -0.004321 mm3
+  Median relative error: 18.96%
+  Pearson r: 0.9987
+  Spearman rho: 0.9912
+  ICC(A,1): 0.9983
+  Bland-Altman: -0.004321 [-0.036365, 0.027723] mm3
+
+k = 3.5
+  MAE: 0.009635 mm3
+  RMSE: 0.015143 mm3
+  Bias: -0.004078 mm3
+  Median relative error: 15.57%
+  Pearson r: 0.9987
+  Spearman rho: 0.9824
+  ICC(A,1): 0.9984
+  Bland-Altman: -0.004078 [-0.033740, 0.025583] mm3
+
+k = 4.0
+  MAE: 0.008860 mm3
+  RMSE: 0.013990 mm3
+  Bias: -0.003724 mm3
+  Median relative error: 15.85%
+  Pearson r: 0.9987
+  Spearman rho: 0.9780
+  ICC(A,1): 0.9985
+  Bland-Altman: -0.003724 [-0.031153, 0.023706] mm3
+
+==========================================================================================
+PAIRED MODEL COMPARISON AT 3 SD
+==========================================================================================
+ n_subjects  unetpp_mae_mm3  deeplabv3plus_mae_mm3  paired_mae_difference_unetpp_minus_deeplab  difference_ci95_low  difference_ci95_high  wilcoxon_statistic  wilcoxon_p_value
+         14        0.007814               0.010516                                   -0.002702            -0.009151              0.002338                49.0          0.855225
+
+==========================================================================================
+REFERENCE-VOLUME STRATA AT 3 SD
+==========================================================================================
+        model volume_stratum  n_subjects  reference_volume_mean_mm3  reference_volume_median_mm3  volume_mae_mm3  median_relative_error_percent  mean_signed_error_mm3
+       unetpp            low           5                   0.006458                     0.003832        0.003733                      50.229931              -0.000350
+       unetpp         middle           4                   0.039131                     0.034036        0.010144                      27.636081               0.006988
+       unetpp           high           5                   0.430400                     0.199679        0.010031                       2.162297               0.000798
+deeplabv3plus            low           5                   0.006458                     0.003832        0.003660                      55.899105              -0.001147
+deeplabv3plus         middle           4                   0.039131                     0.034036        0.008156                      23.161809               0.005008
+deeplabv3plus           high           5                   0.430400                     0.199679        0.019259                       6.642678              -0.014959
+
+==========================================================================================
+FILES SAVED
+==========================================================================================
+reports/drusen_volume/agreement_analysis/volume_agreement_all_thresholds.csv
+reports/drusen_volume/agreement_analysis/paired_unetpp_vs_deeplab_3sd.csv
+reports/drusen_volume/agreement_analysis/volume_strata_3sd.csv

@@ -1,0 +1,7 @@
+======================================
+Model: unetpp
+Node: i17n6.ocelote.hpc.arizona.edu
+======================================
+Torch: 2.5.1+cu121
+CUDA available: True
+GPU: Tesla P100-PCIE-16GB

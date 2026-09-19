@@ -1,0 +1,130 @@
+
+==========================================================================================
+DIRECTORY: data/raw/duke_amd/extracted/amd
+FILES: 92
+==========================================================================================
+
+FILE: Farsiu_Ophthalmology_2013_AMD_Subject_1001.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[78]]
+
+FILE: Farsiu_Ophthalmology_2013_AMD_Subject_1002.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[80]]
+
+FILE: Farsiu_Ophthalmology_2013_AMD_Subject_1003.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[78]]
+
+FILE: Farsiu_Ophthalmology_2013_AMD_Subject_1004.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[78]]
+
+FILE: Farsiu_Ophthalmology_2013_AMD_Subject_1005.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[83]]
+
+==========================================================================================
+DIRECTORY: data/raw/duke_amd/extracted/control
+FILES: 93
+==========================================================================================
+
+FILE: Farsiu_Ophthalmology_2013_Control_Subject_1001.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[70]]
+
+FILE: Farsiu_Ophthalmology_2013_Control_Subject_1002.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[67]]
+
+FILE: Farsiu_Ophthalmology_2013_Control_Subject_1003.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[53]]
+
+FILE: Farsiu_Ophthalmology_2013_Control_Subject_1004.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[57]]
+
+FILE: Farsiu_Ophthalmology_2013_Control_Subject_1005.mat
+  images
+    shape: (512, 1000, 100)
+    dtype: uint8
+  layerMaps
+    shape: (100, 1000, 3)
+    dtype: float64
+  Age
+    shape: (1, 1)
+    dtype: uint8
+    value: [[55]]

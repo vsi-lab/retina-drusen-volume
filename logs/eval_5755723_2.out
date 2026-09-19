@@ -1,0 +1,11 @@
+Evaluating: fpn
+Node: i17n12.ocelote.hpc.arizona.edu
+Start time: Tue Aug  4 11:58:18 MST 2026
+Architecture: fpn
+Subject-level mean Dice: 0.8947262726971249
+Subject-level mean IoU: 0.8141114567012231
+Subject-level mean HD95: 11.402869569152184
+Subject-level thickness MAE: 1.9050843713956784
+Saved results to: reports/segmentation/fpn
+Evaluation completed: fpn
+End time: Tue Aug  4 12:01:14 MST 2026

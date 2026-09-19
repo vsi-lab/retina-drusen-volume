@@ -1,0 +1,20 @@
+Total masks: 13337
+Shape mismatch: 0
+All-background masks: 0
+
+Foreground fraction summary:
+count    13337.000000
+mean         0.013190
+std          0.006636
+min          0.003004
+25%          0.009666
+50%          0.012705
+75%          0.015365
+max          0.104582
+Name: foreground_fraction, dtype: float64
+
+By group:
+         count      mean    median       min       max
+group                                                 
+AMD       6594  0.014519  0.013241  0.003174  0.104582
+Control   6743  0.011890  0.012320  0.003004  0.022865

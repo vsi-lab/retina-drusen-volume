@@ -1,0 +1,43 @@
+Architecture: fpn
+Array task: 2
+Node: i18n17.ocelote.hpc.arizona.edu
+Start time: Tue Aug  4 01:13:51 MST 2026
+Python: /groups/eungjoolee/puneethsamarla/conda_envs/eda310/bin/python
+Tue Aug  4 01:13:51 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:0B:00.0 Off |                    0 |
+| N/A   25C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Device: cuda
+GPU: Tesla P100-PCIE-16GB
+Architecture: fpn
+Training slices: 9315
+Validation slices: 2012
+Epoch 001 | train_loss=0.1136 train_dice=0.8177 | val_loss=0.0895 val_dice=0.8852 val_iou=0.7941 val_precision=0.8712 val_recall=0.8996 val_specificity=0.9983 val_mcc=0.8838 | lr=3.00e-04 time=427.9s [BEST]
+Epoch 002 | train_loss=0.0910 train_dice=0.8751 | val_loss=0.0874 val_dice=0.8862 val_iou=0.7957 val_precision=0.8360 val_recall=0.9429 val_specificity=0.9977 val_mcc=0.8863 | lr=3.00e-04 time=409.0s [BEST]
+Epoch 003 | train_loss=0.0860 train_dice=0.8824 | val_loss=0.0823 val_dice=0.8945 val_iou=0.8091 val_precision=0.8761 val_recall=0.9136 val_specificity=0.9984 val_mcc=0.8933 | lr=3.00e-04 time=409.1s [BEST]
+Epoch 004 | train_loss=0.0809 train_dice=0.8898 | val_loss=0.0822 val_dice=0.8953 val_iou=0.8105 val_precision=0.8900 val_recall=0.9007 val_specificity=0.9986 val_mcc=0.8940 | lr=3.00e-04 time=410.8s [BEST]
+Epoch 005 | train_loss=0.0798 train_dice=0.8909 | val_loss=0.0799 val_dice=0.8979 val_iou=0.8147 val_precision=0.8783 val_recall=0.9184 val_specificity=0.9984 val_mcc=0.8968 | lr=3.00e-04 time=409.0s [BEST]
+Epoch 006 | train_loss=0.0764 train_dice=0.8959 | val_loss=0.0775 val_dice=0.9014 val_iou=0.8204 val_precision=0.8826 val_recall=0.9210 val_specificity=0.9984 val_mcc=0.9003 | lr=3.00e-04 time=409.0s [BEST]
+Epoch 007 | train_loss=0.0751 train_dice=0.8978 | val_loss=0.0778 val_dice=0.9014 val_iou=0.8205 val_precision=0.8878 val_recall=0.9154 val_specificity=0.9985 val_mcc=0.9002 | lr=3.00e-04 time=409.1s [BEST]
+Epoch 008 | train_loss=0.0735 train_dice=0.8999 | val_loss=0.0753 val_dice=0.9049 val_iou=0.8264 val_precision=0.9009 val_recall=0.9090 val_specificity=0.9987 val_mcc=0.9037 | lr=3.00e-04 time=409.1s [BEST]
+Epoch 009 | train_loss=0.0728 train_dice=0.9008 | val_loss=0.0760 val_dice=0.9027 val_iou=0.8227 val_precision=0.8901 val_recall=0.9158 val_specificity=0.9986 val_mcc=0.9016 | lr=3.00e-04 time=414.5s 
+Epoch 010 | train_loss=0.0710 train_dice=0.9035 | val_loss=0.0766 val_dice=0.9034 val_iou=0.8238 val_precision=0.8947 val_recall=0.9122 val_specificity=0.9986 val_mcc=0.9022 | lr=3.00e-04 time=409.1s 
+Training completed. Best validation Dice: 0.9049
+Completed architecture: fpn
+End time: Tue Aug  4 02:22:59 MST 2026

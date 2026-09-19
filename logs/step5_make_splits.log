@@ -1,0 +1,12 @@
+Saved: data/splits/duke_subject_split.csv
+
+split  group  
+test   AMD        14
+       Control    14
+train  AMD        64
+       Control    65
+val    AMD        14
+       Control    14
+dtype: int64
+
+Total subjects: 185

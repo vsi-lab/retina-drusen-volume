@@ -1,0 +1,97 @@
+================================================================================
+SUBJECT-LEVEL PHYSICAL METRIC SUMMARY
+================================================================================
+
+UNET | n=28
+dice                       0.889 [95% CI 0.873, 0.903] 
+iou                        0.808 [95% CI 0.785, 0.827] 
+precision                  0.897 [95% CI 0.884, 0.910] 
+recall                     0.896 [95% CI 0.865, 0.921] 
+specificity                0.999 [95% CI 0.998, 0.999] 
+balanced_accuracy          0.947 [95% CI 0.932, 0.960] 
+mcc                        0.892 [95% CI 0.877, 0.904] 
+thickness_mae_um           6.498 [95% CI 5.639, 7.470] µm
+thickness_rmse_um          10.832 [95% CI 9.400, 12.489] µm
+thickness_bias_um          -0.110 [95% CI -1.515, 1.110] µm
+
+UNETPP | n=28
+dice                       0.897 [95% CI 0.890, 0.904] 
+iou                        0.818 [95% CI 0.807, 0.829] 
+precision                  0.896 [95% CI 0.885, 0.907] 
+recall                     0.908 [95% CI 0.893, 0.922] 
+specificity                0.999 [95% CI 0.998, 0.999] 
+balanced_accuracy          0.953 [95% CI 0.946, 0.960] 
+mcc                        0.899 [95% CI 0.892, 0.905] 
+thickness_mae_um           6.125 [95% CI 5.462, 6.880] µm
+thickness_rmse_um          10.362 [95% CI 9.159, 11.840] µm
+thickness_bias_um          0.234 [95% CI -0.675, 1.128] µm
+
+FPN | n=28
+dice                       0.895 [95% CI 0.885, 0.903] 
+iou                        0.814 [95% CI 0.799, 0.828] 
+precision                  0.896 [95% CI 0.886, 0.906] 
+recall                     0.902 [95% CI 0.883, 0.919] 
+specificity                0.999 [95% CI 0.998, 0.999] 
+balanced_accuracy          0.951 [95% CI 0.941, 0.959] 
+mcc                        0.896 [95% CI 0.886, 0.904] 
+thickness_mae_um           6.153 [95% CI 5.477, 6.892] µm
+thickness_rmse_um          10.081 [95% CI 8.866, 11.496] µm
+thickness_bias_um          0.108 [95% CI -0.770, 0.951] µm
+
+DEEPLABV3PLUS | n=28
+dice                       0.897 [95% CI 0.889, 0.905] 
+iou                        0.818 [95% CI 0.806, 0.830] 
+precision                  0.892 [95% CI 0.883, 0.901] 
+recall                     0.912 [95% CI 0.896, 0.927] 
+specificity                0.999 [95% CI 0.998, 0.999] 
+balanced_accuracy          0.955 [95% CI 0.947, 0.963] 
+mcc                        0.898 [95% CI 0.890, 0.906] 
+thickness_mae_um           6.161 [95% CI 5.455, 6.968] µm
+thickness_rmse_um          9.991 [95% CI 8.740, 11.491] µm
+thickness_bias_um          0.530 [95% CI -0.338, 1.381] µm
+
+================================================================================
+PAIRED U-NET++ VS DEEPLABV3+
+================================================================================
+Paired subjects: 28
+
+dice
+  U-Net++ mean:        0.8973
+  DeepLabV3+ mean:     0.8972
+  Paired difference:   0.0001
+  Difference 95% CI:   [-0.0034, 0.0039]
+  Wilcoxon p-value:    0.796562
+
+iou
+  U-Net++ mean:        0.8184
+  DeepLabV3+ mean:     0.8183
+  Paired difference:   0.0001
+  Difference 95% CI:   [-0.0054, 0.0060]
+  Wilcoxon p-value:    0.831373
+
+mcc
+  U-Net++ mean:        0.8985
+  DeepLabV3+ mean:     0.8983
+  Paired difference:   0.0002
+  Difference 95% CI:   [-0.0031, 0.0038]
+  Wilcoxon p-value:    0.901900
+
+thickness_mae_um
+  U-Net++ mean:        6.1247
+  DeepLabV3+ mean:     6.1606
+  Paired difference:   -0.0359
+  Difference 95% CI:   [-0.2332, 0.1581]
+  Wilcoxon p-value:    0.762139
+
+thickness_rmse_um
+  U-Net++ mean:        10.3616
+  DeepLabV3+ mean:     9.9908
+  Paired difference:   0.3708
+  Difference 95% CI:   [0.0431, 0.7023]
+  Wilcoxon p-value:    0.040214
+
+================================================================================
+FILES SAVED
+================================================================================
+reports/physical_metrics/model_subject_summary_95ci.csv
+reports/paired_comparison/unetpp_vs_deeplabv3plus.csv

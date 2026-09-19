@@ -1,0 +1,30 @@
+Architecture: unet
+Array task: 0
+Node: i17n0.ocelote.hpc.arizona.edu
+Start time: Wed Jul 22 18:04:36 MST 2026
+Python: /groups/eungjoolee/puneethsamarla/conda_envs/eda310/bin/python
+Wed Jul 22 18:04:36 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   27C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Device: cpu
+Architecture: unet
+Training slices: 9315
+Validation slices: 2012
+Epoch 001 | train_loss=0.1622 train_dice=0.7621 | val_loss=0.0962 val_dice=0.8746 val_iou=0.7772 val_precision=0.8884 val_recall=0.8613 val_specificity=0.9986 val_mcc=0.8732 | lr=3.00e-04 time=73810.6s [BEST]

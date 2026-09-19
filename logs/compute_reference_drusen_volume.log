@@ -1,0 +1,401 @@
+========================================================================
+NORMAL REFERENCE INPUT
+========================================================================
+AMD subjects: 92
+Control subjects total: 93
+Controls on common 100x1000 grid: 92
+Controls excluded for shape mismatch: 1
+                                       subject  age  bscans  ascans
+Farsiu_Ophthalmology_2013_Control_Subject_1088 69.0      82    1000
+AMD 1/92: Farsiu_Ophthalmology_2013_AMD_Subject_1001/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 2/92: Farsiu_Ophthalmology_2013_AMD_Subject_1002/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 3/92: Farsiu_Ophthalmology_2013_AMD_Subject_1003/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 4/92: Farsiu_Ophthalmology_2013_AMD_Subject_1004/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 5/92: Farsiu_Ophthalmology_2013_AMD_Subject_1005/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 6/92: Farsiu_Ophthalmology_2013_AMD_Subject_1006/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 7/92: Farsiu_Ophthalmology_2013_AMD_Subject_1007/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 8/92: Farsiu_Ophthalmology_2013_AMD_Subject_1008/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 9/92: Farsiu_Ophthalmology_2013_AMD_Subject_1009/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 10/92: Farsiu_Ophthalmology_2013_AMD_Subject_1010/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 11/92: Farsiu_Ophthalmology_2013_AMD_Subject_1011/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 12/92: Farsiu_Ophthalmology_2013_AMD_Subject_1012/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 13/92: Farsiu_Ophthalmology_2013_AMD_Subject_1013/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 14/92: Farsiu_Ophthalmology_2013_AMD_Subject_1014/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 15/92: Farsiu_Ophthalmology_2013_AMD_Subject_1015/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 16/92: Farsiu_Ophthalmology_2013_AMD_Subject_1016/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 17/92: Farsiu_Ophthalmology_2013_AMD_Subject_1017/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 18/92: Farsiu_Ophthalmology_2013_AMD_Subject_1018/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 19/92: Farsiu_Ophthalmology_2013_AMD_Subject_1019/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 20/92: Farsiu_Ophthalmology_2013_AMD_Subject_1020/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 21/92: Farsiu_Ophthalmology_2013_AMD_Subject_1021/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 22/92: Farsiu_Ophthalmology_2013_AMD_Subject_1022/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 23/92: Farsiu_Ophthalmology_2013_AMD_Subject_1023/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 24/92: Farsiu_Ophthalmology_2013_AMD_Subject_1024/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 25/92: Farsiu_Ophthalmology_2013_AMD_Subject_1025/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 26/92: Farsiu_Ophthalmology_2013_AMD_Subject_1026/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 27/92: Farsiu_Ophthalmology_2013_AMD_Subject_1027/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 28/92: Farsiu_Ophthalmology_2013_AMD_Subject_1028/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 29/92: Farsiu_Ophthalmology_2013_AMD_Subject_1029/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 30/92: Farsiu_Ophthalmology_2013_AMD_Subject_1030/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 31/92: Farsiu_Ophthalmology_2013_AMD_Subject_1031/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 32/92: Farsiu_Ophthalmology_2013_AMD_Subject_1032/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 33/92: Farsiu_Ophthalmology_2013_AMD_Subject_1033/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 34/92: Farsiu_Ophthalmology_2013_AMD_Subject_1034/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 35/92: Farsiu_Ophthalmology_2013_AMD_Subject_1035/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 36/92: Farsiu_Ophthalmology_2013_AMD_Subject_1036/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 37/92: Farsiu_Ophthalmology_2013_AMD_Subject_1037/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 38/92: Farsiu_Ophthalmology_2013_AMD_Subject_1038/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 39/92: Farsiu_Ophthalmology_2013_AMD_Subject_1039/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 40/92: Farsiu_Ophthalmology_2013_AMD_Subject_1040/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 41/92: Farsiu_Ophthalmology_2013_AMD_Subject_1041/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 42/92: Farsiu_Ophthalmology_2013_AMD_Subject_1042/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 43/92: Farsiu_Ophthalmology_2013_AMD_Subject_1043/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 44/92: Farsiu_Ophthalmology_2013_AMD_Subject_1044/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 45/92: Farsiu_Ophthalmology_2013_AMD_Subject_1045/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 46/92: Farsiu_Ophthalmology_2013_AMD_Subject_1046/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 47/92: Farsiu_Ophthalmology_2013_AMD_Subject_1047/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 48/92: Farsiu_Ophthalmology_2013_AMD_Subject_1048/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 49/92: Farsiu_Ophthalmology_2013_AMD_Subject_1049/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 50/92: Farsiu_Ophthalmology_2013_AMD_Subject_1050/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 51/92: Farsiu_Ophthalmology_2013_AMD_Subject_1051/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 52/92: Farsiu_Ophthalmology_2013_AMD_Subject_1052/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 53/92: Farsiu_Ophthalmology_2013_AMD_Subject_1053/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 54/92: Farsiu_Ophthalmology_2013_AMD_Subject_1054/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 55/92: Farsiu_Ophthalmology_2013_AMD_Subject_1055/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 56/92: Farsiu_Ophthalmology_2013_AMD_Subject_1056/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 57/92: Farsiu_Ophthalmology_2013_AMD_Subject_1057/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 58/92: Farsiu_Ophthalmology_2013_AMD_Subject_1058/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 59/92: Farsiu_Ophthalmology_2013_AMD_Subject_1059/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 60/92: Farsiu_Ophthalmology_2013_AMD_Subject_1060/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 61/92: Farsiu_Ophthalmology_2013_AMD_Subject_1061/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 62/92: Farsiu_Ophthalmology_2013_AMD_Subject_1062/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 63/92: Farsiu_Ophthalmology_2013_AMD_Subject_1063/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 64/92: Farsiu_Ophthalmology_2013_AMD_Subject_1064/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 65/92: Farsiu_Ophthalmology_2013_AMD_Subject_1065/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 66/92: Farsiu_Ophthalmology_2013_AMD_Subject_1066/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 67/92: Farsiu_Ophthalmology_2013_AMD_Subject_1067/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 68/92: Farsiu_Ophthalmology_2013_AMD_Subject_1068/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 69/92: Farsiu_Ophthalmology_2013_AMD_Subject_1069/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 70/92: Farsiu_Ophthalmology_2013_AMD_Subject_1070/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 71/92: Farsiu_Ophthalmology_2013_AMD_Subject_1071/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 72/92: Farsiu_Ophthalmology_2013_AMD_Subject_1072/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 73/92: Farsiu_Ophthalmology_2013_AMD_Subject_1073/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 74/92: Farsiu_Ophthalmology_2013_AMD_Subject_1074/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 75/92: Farsiu_Ophthalmology_2013_AMD_Subject_1075/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 76/92: Farsiu_Ophthalmology_2013_AMD_Subject_1076/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 77/92: Farsiu_Ophthalmology_2013_AMD_Subject_1077/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 78/92: Farsiu_Ophthalmology_2013_AMD_Subject_1078/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 79/92: Farsiu_Ophthalmology_2013_AMD_Subject_1079/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 80/92: Farsiu_Ophthalmology_2013_AMD_Subject_1080/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 81/92: Farsiu_Ophthalmology_2013_AMD_Subject_1081/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 82/92: Farsiu_Ophthalmology_2013_AMD_Subject_1082/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 83/92: Farsiu_Ophthalmology_2013_AMD_Subject_1083/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 84/92: Farsiu_Ophthalmology_2013_AMD_Subject_1084/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 85/92: Farsiu_Ophthalmology_2013_AMD_Subject_1085/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 86/92: Farsiu_Ophthalmology_2013_AMD_Subject_1086/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 87/92: Farsiu_Ophthalmology_2013_AMD_Subject_1087/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 88/92: Farsiu_Ophthalmology_2013_AMD_Subject_1088/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 89/92: Farsiu_Ophthalmology_2013_AMD_Subject_1089/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 90/92: Farsiu_Ophthalmology_2013_AMD_Subject_1090/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 91/92: Farsiu_Ophthalmology_2013_AMD_Subject_1091/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+AMD 92/92: Farsiu_Ophthalmology_2013_AMD_Subject_1092/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/compute_age_matched_drusen_volume.py:139: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+
+
+========================================================================
+THRESHOLD SENSITIVITY SUMMARY
+========================================================================
+      count      mean       std    median       min       max
+k_sd                                                         
+2.0      92  0.112311  0.222957  0.038759  0.000445  1.494979
+2.5      92  0.102326  0.215704  0.030629  0.000292  1.472210
+3.0      92  0.093887  0.208691  0.024320  0.000187  1.449993
+3.5      92  0.086589  0.201956  0.019598  0.000070  1.428235
+4.0      92  0.080172  0.195531  0.016116  0.000018  1.406862
+
+========================================================================
+AGE WINDOW USE
+========================================================================
+age_window_years
+5    88
+7     4
+Name: count, dtype: int64
+
+Saved:
+reports/drusen_volume/reference_formula/drusen_volume_threshold_sensitivity.csv
+reports/drusen_volume/reference_formula/age_matching_details.csv

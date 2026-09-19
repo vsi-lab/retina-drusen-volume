@@ -1,0 +1,83 @@
+AMD MAT files found: 92
+Control MAT files found: 93
+Auditing AMD: 1/92Auditing AMD: 2/92Auditing AMD: 3/92Auditing AMD: 4/92Auditing AMD: 5/92Auditing AMD: 6/92Auditing AMD: 7/92Auditing AMD: 8/92Auditing AMD: 9/92Auditing AMD: 10/92Auditing AMD: 11/92Auditing AMD: 12/92Auditing AMD: 13/92Auditing AMD: 14/92Auditing AMD: 15/92Auditing AMD: 16/92Auditing AMD: 17/92Auditing AMD: 18/92Auditing AMD: 19/92Auditing AMD: 20/92Auditing AMD: 21/92Auditing AMD: 22/92Auditing AMD: 23/92Auditing AMD: 24/92Auditing AMD: 25/92Auditing AMD: 26/92Auditing AMD: 27/92Auditing AMD: 28/92Auditing AMD: 29/92Auditing AMD: 30/92Auditing AMD: 31/92Auditing AMD: 32/92Auditing AMD: 33/92Auditing AMD: 34/92Auditing AMD: 35/92Auditing AMD: 36/92Auditing AMD: 37/92Auditing AMD: 38/92Auditing AMD: 39/92Auditing AMD: 40/92Auditing AMD: 41/92Auditing AMD: 42/92Auditing AMD: 43/92Auditing AMD: 44/92Auditing AMD: 45/92Auditing AMD: 46/92Auditing AMD: 47/92Auditing AMD: 48/92Auditing AMD: 49/92Auditing AMD: 50/92Auditing AMD: 51/92Auditing AMD: 52/92Auditing AMD: 53/92Auditing AMD: 54/92Auditing AMD: 55/92Auditing AMD: 56/92Auditing AMD: 57/92Auditing AMD: 58/92Auditing AMD: 59/92Auditing AMD: 60/92Auditing AMD: 61/92Auditing AMD: 62/92Auditing AMD: 63/92Auditing AMD: 64/92Auditing AMD: 65/92Auditing AMD: 66/92Auditing AMD: 67/92Auditing AMD: 68/92Auditing AMD: 69/92Auditing AMD: 70/92Auditing AMD: 71/92Auditing AMD: 72/92Auditing AMD: 73/92Auditing AMD: 74/92Auditing AMD: 75/92Auditing AMD: 76/92Auditing AMD: 77/92Auditing AMD: 78/92Auditing AMD: 79/92Auditing AMD: 80/92Auditing AMD: 81/92Auditing AMD: 82/92Auditing AMD: 83/92Auditing AMD: 84/92Auditing AMD: 85/92Auditing AMD: 86/92Auditing AMD: 87/92Auditing AMD: 88/92Auditing AMD: 89/92Auditing AMD: 90/92Auditing AMD: 91/92Auditing AMD: 92/92
+Auditing Control: 1/93Auditing Control: 2/93Auditing Control: 3/93Auditing Control: 4/93Auditing Control: 5/93Auditing Control: 6/93Auditing Control: 7/93Auditing Control: 8/93Auditing Control: 9/93Auditing Control: 10/93Auditing Control: 11/93Auditing Control: 12/93Auditing Control: 13/93Auditing Control: 14/93Auditing Control: 15/93Auditing Control: 16/93Auditing Control: 17/93Auditing Control: 18/93Auditing Control: 19/93Auditing Control: 20/93Auditing Control: 21/93Auditing Control: 22/93Auditing Control: 23/93Auditing Control: 24/93Auditing Control: 25/93Auditing Control: 26/93Auditing Control: 27/93Auditing Control: 28/93Auditing Control: 29/93Auditing Control: 30/93Auditing Control: 31/93Auditing Control: 32/93Auditing Control: 33/93Auditing Control: 34/93Auditing Control: 35/93Auditing Control: 36/93Auditing Control: 37/93Auditing Control: 38/93Auditing Control: 39/93Auditing Control: 40/93Auditing Control: 41/93Auditing Control: 42/93Auditing Control: 43/93Auditing Control: 44/93Auditing Control: 45/93Auditing Control: 46/93Auditing Control: 47/93Auditing Control: 48/93Auditing Control: 49/93Auditing Control: 50/93Auditing Control: 51/93Auditing Control: 52/93Auditing Control: 53/93Auditing Control: 54/93Auditing Control: 55/93Auditing Control: 56/93Auditing Control: 57/93Auditing Control: 58/93Auditing Control: 59/93Auditing Control: 60/93Auditing Control: 61/93Auditing Control: 62/93Auditing Control: 63/93Auditing Control: 64/93Auditing Control: 65/93Auditing Control: 66/93Auditing Control: 67/93Auditing Control: 68/93Auditing Control: 69/93Auditing Control: 70/93Auditing Control: 71/93Auditing Control: 72/93Auditing Control: 73/93Auditing Control: 74/93Auditing Control: 75/93Auditing Control: 76/93Auditing Control: 77/93Auditing Control: 78/93Auditing Control: 79/93Auditing Control: 80/93Auditing Control: 81/93Auditing Control: 82/93Auditing Control: 83/93Auditing Control: 84/93Auditing Control: 85/93Auditing Control: 86/93Auditing Control: 87/93Auditing Control: 88/93Auditing Control: 89/93Auditing Control: 90/93Auditing Control: 91/93Auditing Control: 92/93Auditing Control: 93/93
+
+======================================================================
+FILE STATUS
+======================================================================
+group    status
+AMD      ok        92
+Control  ok        93
+dtype: int64
+
+======================================================================
+EXPECTED PUBLISHED COHORT
+======================================================================
+AMD expected:     269
+Control expected: 115
+
+======================================================================
+CURRENT FILE COUNTS
+======================================================================
+group
+AMD        92
+Control    93
+dtype: int64
+
+======================================================================
+SUCCESSFULLY READ FILES
+======================================================================
+group
+AMD        92
+Control    93
+dtype: int64
+
+======================================================================
+IMAGE SHAPES
+======================================================================
+group    image_shape     
+AMD      (512, 1000, 100)    92
+Control  (512, 1000, 100)    92
+         (512, 1000, 82)      1
+dtype: int64
+
+======================================================================
+LAYER MAP SHAPES
+======================================================================
+group    layer_shape   
+AMD      (100, 1000, 3)    92
+Control  (100, 1000, 3)    92
+         (82, 1000, 3)      1
+dtype: int64
+
+======================================================================
+AGE SUMMARY
+======================================================================
+         count       mean       std   min   25%   50%   75%   max
+group                                                            
+AMD       92.0  74.717391  7.539385  53.0  70.0  76.5  80.0  87.0
+Control   93.0  66.849462  7.607128  51.0  61.0  67.0  72.0  83.0
+
+======================================================================
+DUPLICATE FILE CHECK
+======================================================================
+No duplicate MAT files detected.
+
+======================================================================
+MISSING OR INVALID FILES
+======================================================================
+No unreadable or structurally invalid MAT files.
+
+======================================================================
+SUMMARY
+======================================================================
+AMD present: 92/269
+Control present: 93/115
+AMD missing relative to published cohort: 177
+Control missing relative to published cohort: 22
+
+IMPORTANT: the current extracted dataset itself contains only 92 AMD and 93 Control MAT files.
+This means the missing subjects are not being removed by the RPEDC exporter or train/test split.
+
+Saved inventory: reports/inventory/duke_subject_inventory.csv

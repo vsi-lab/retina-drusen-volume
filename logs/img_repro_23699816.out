@@ -1,0 +1,54 @@
+================================================================================
+EXHAUSTIVE OLD VS FULL IMAGE COMPARISON
+================================================================================
+Old manifest rows: 13337
+Matched rows: 13337
+Checked 1000/13337
+Checked 2000/13337
+Checked 3000/13337
+Checked 4000/13337
+Checked 5000/13337
+Checked 6000/13337
+Checked 7000/13337
+Checked 8000/13337
+Checked 9000/13337
+Checked 10000/13337
+Checked 11000/13337
+Checked 12000/13337
+Checked 13000/13337
+Checked 13337/13337
+
+================================================================================
+RESULT
+================================================================================
+Total images compared: 13337
+Different images: 60
+Maximum absolute difference: 1
+Maximum differing fraction: 0.2376484375
+Median differing fraction: 0.012685546875
+Maximum mean absolute difference: 0.2376484375
+
+Top discrepancies:
+                                       subject  bscan_idx  different_pixels  different_fraction  max_abs_difference  mean_abs_difference  shape_mismatch   old_shape   new_shape                                                                                                                        old_image_path                                                                                                                             new_image_path
+Farsiu_Ophthalmology_2013_Control_Subject_1078         61            121676            0.237648                   1             0.237648           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1078_b061.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1078_b061.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1022         43             44088            0.086109                   1             0.086109           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1022_b043.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1022_b043.png
+Farsiu_Ophthalmology_2013_Control_Subject_1093         45             37423            0.073092                   1             0.073092           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1093_b045.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1093_b045.png
+Farsiu_Ophthalmology_2013_Control_Subject_1032         58             37337            0.072924                   1             0.072924           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1032_b058.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1032_b058.png
+Farsiu_Ophthalmology_2013_Control_Subject_1042         14             37301            0.072854                   1             0.072854           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1042_b014.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1042_b014.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1022         77             12822            0.025043                   1             0.025043           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1022_b077.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1022_b077.png
+Farsiu_Ophthalmology_2013_Control_Subject_1023         20             12799            0.024998                   1             0.024998           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1023_b020.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1023_b020.png
+Farsiu_Ophthalmology_2013_Control_Subject_1051         74             12755            0.024912                   1             0.024912           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1051_b074.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1051_b074.png
+Farsiu_Ophthalmology_2013_Control_Subject_1011         17             12616            0.024641                   1             0.024641           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1011_b017.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1011_b017.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1004         65             11781            0.023010                   1             0.023010           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1004_b065.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1004_b065.png
+Farsiu_Ophthalmology_2013_Control_Subject_1004         47             11595            0.022646                   1             0.022646           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1004_b047.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1004_b047.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1084         40             11560            0.022578                   1             0.022578           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1084_b040.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1084_b040.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1051         80             11531            0.022521                   1             0.022521           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1051_b080.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1051_b080.png
+Farsiu_Ophthalmology_2013_Control_Subject_1060         75             10983            0.021451                   1             0.021451           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1060_b075.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1060_b075.png
+Farsiu_Ophthalmology_2013_Control_Subject_1067         38             10980            0.021445                   1             0.021445           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1067_b038.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1067_b038.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1065         51             10880            0.021250                   1             0.021250           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1065_b051.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1065_b051.png
+Farsiu_Ophthalmology_2013_Control_Subject_1074         40              7781            0.015197                   1             0.015197           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1074_b040.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1074_b040.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1074         18              7283            0.014225                   1             0.014225           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1074_b018.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1074_b018.png
+    Farsiu_Ophthalmology_2013_AMD_Subject_1048         46              6921            0.013518                   1             0.013518           False (512, 1000) (512, 1000)     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_AMD_Subject_1048_b046.png     /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_AMD_Subject_1048_b046.png
+Farsiu_Ophthalmology_2013_Control_Subject_1088         32              6907            0.013490                   1             0.013490           False (512, 1000) (512, 1000) /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed/images/Farsiu_Ophthalmology_2013_Control_Subject_1088_b032.png /groups/eungjoolee/puneethsamarla/drusen_volume_project/data/processed_full/images/Farsiu_Ophthalmology_2013_Control_Subject_1088_b032.png
+
+Saved: reports/full_cohort_qc/old_new_image_differences.csv

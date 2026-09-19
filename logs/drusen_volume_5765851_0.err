@@ -1,0 +1,16 @@
+usage: predict_rpedc_drusen_volume.py [-h] [--manifest MANIFEST]
+                                      [--splits SPLITS]
+                                      [--thickness_manifest THICKNESS_MANIFEST]
+                                      [--reference_csv REFERENCE_CSV]
+                                      --checkpoint CHECKPOINT --model_name
+                                      MODEL_NAME [--out_dir OUT_DIR]
+                                      [--batch_size BATCH_SIZE]
+predict_rpedc_drusen_volume.py: error: the following arguments are required: --checkpoint, --model_name
+/var/spool/slurm/d/job5765852/slurm_script: line 79: --manifest: command not found
+/var/spool/slurm/d/job5765852/slurm_script: line 81: --splits: command not found
+/var/spool/slurm/d/job5765852/slurm_script: line 83: --thickness_manifest: command not found
+/var/spool/slurm/d/job5765852/slurm_script: line 85: --reference_csv: command not found
+/var/spool/slurm/d/job5765852/slurm_script: line 87: --checkpoint: command not found
+/var/spool/slurm/d/job5765852/slurm_script: line 89: --model_name: command not found
+/var/spool/slurm/d/job5765852/slurm_script: line 91: --out_dir: command not found
+/var/spool/slurm/d/job5765852/slurm_script: line 93: --batch_size: command not found

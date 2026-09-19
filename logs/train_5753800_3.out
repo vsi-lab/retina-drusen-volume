@@ -1,0 +1,30 @@
+Architecture: deeplabv3plus
+Array task: 3
+Node: i18n0.ocelote.hpc.arizona.edu
+Start time: Sun Aug  2 13:34:36 MST 2026
+Python: /groups/eungjoolee/puneethsamarla/conda_envs/eda310/bin/python
+Sun Aug  2 13:34:36 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   50C    P0             31W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Device: cpu
+Architecture: deeplabv3plus
+Training slices: 9315
+Validation slices: 2012
+Epoch 001 | train_loss=0.1366 train_dice=0.7705 | val_loss=0.0945 val_dice=0.8764 val_iou=0.7799 val_precision=0.8426 val_recall=0.9129 val_specificity=0.9978 val_mcc=0.8754 | lr=3.00e-04 time=61028.4s [BEST]

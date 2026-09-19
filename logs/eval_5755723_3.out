@@ -1,0 +1,11 @@
+Evaluating: deeplabv3plus
+Node: i18n2.ocelote.hpc.arizona.edu
+Start time: Tue Aug  4 11:58:18 MST 2026
+Architecture: deeplabv3plus
+Subject-level mean Dice: 0.8972055678600447
+Subject-level mean IoU: 0.8182711357804554
+Subject-level mean HD95: 11.067196229226399
+Subject-level thickness MAE: 1.9073163518984058
+Saved results to: reports/segmentation/deeplabv3plus
+Evaluation completed: deeplabv3plus
+End time: Tue Aug  4 12:01:23 MST 2026

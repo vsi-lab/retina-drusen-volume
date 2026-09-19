@@ -1,0 +1,62 @@
+======================================
+Model: deeplabv3plus
+Node: i17n8.ocelote.hpc.arizona.edu
+Array task: 1
+======================================
+Torch: 2.5.1+cu121
+CUDA available: True
+GPU: Tesla P100-PCIE-16GB
+================================================================================
+PREDICTED RPEDC → DRUSEN VOLUME
+================================================================================
+Device: cuda
+GPU: Tesla P100-PCIE-16GB
+Architecture: deeplabv3plus
+Encoder: resnet34
+Threshold: 0.5
+Locked AMD test subjects: 14
+
+[1/14] Farsiu_Ophthalmology_2013_AMD_Subject_1002
+
+[2/14] Farsiu_Ophthalmology_2013_AMD_Subject_1003
+
+[3/14] Farsiu_Ophthalmology_2013_AMD_Subject_1015
+
+[4/14] Farsiu_Ophthalmology_2013_AMD_Subject_1021
+
+[5/14] Farsiu_Ophthalmology_2013_AMD_Subject_1022
+
+[6/14] Farsiu_Ophthalmology_2013_AMD_Subject_1024
+
+[7/14] Farsiu_Ophthalmology_2013_AMD_Subject_1030
+
+[8/14] Farsiu_Ophthalmology_2013_AMD_Subject_1052
+
+[9/14] Farsiu_Ophthalmology_2013_AMD_Subject_1053
+
+[10/14] Farsiu_Ophthalmology_2013_AMD_Subject_1061
+
+[11/14] Farsiu_Ophthalmology_2013_AMD_Subject_1072
+
+[12/14] Farsiu_Ophthalmology_2013_AMD_Subject_1075
+
+[13/14] Farsiu_Ophthalmology_2013_AMD_Subject_1083
+
+[14/14] Farsiu_Ophthalmology_2013_AMD_Subject_1086
+
+================================================================================
+PRIMARY 3-SD SUMMARY
+================================================================================
+       reference_volume_mm3  ...  relative_error_percent
+count             14.000000  ...               14.000000
+mean               0.167201  ...               29.519429
+std                0.287168  ...               26.819452
+min                0.003113  ...                0.777381
+25%                0.008778  ...                9.343317
+50%                0.034036  ...               18.962215
+75%                0.155809  ...               49.403164
+max                0.869786  ...               88.786426
+
+[8 rows x 4 columns]
+
+Saved: reports/drusen_volume/predicted_formula/deeplabv3plus_volume_agreement.csv

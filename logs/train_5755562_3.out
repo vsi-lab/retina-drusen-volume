@@ -1,0 +1,43 @@
+Architecture: deeplabv3plus
+Array task: 3
+Node: i18n17.ocelote.hpc.arizona.edu
+Start time: Tue Aug  4 01:13:54 MST 2026
+Python: /groups/eungjoolee/puneethsamarla/conda_envs/eda310/bin/python
+Tue Aug  4 01:13:54 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   22C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Device: cuda
+GPU: Tesla P100-PCIE-16GB
+Architecture: deeplabv3plus
+Training slices: 9315
+Validation slices: 2012
+Epoch 001 | train_loss=0.1324 train_dice=0.7787 | val_loss=0.0972 val_dice=0.8726 val_iou=0.7740 val_precision=0.8730 val_recall=0.8723 val_specificity=0.9984 val_mcc=0.8710 | lr=3.00e-04 time=647.6s [BEST]
+Epoch 002 | train_loss=0.0872 train_dice=0.8807 | val_loss=0.0897 val_dice=0.8841 val_iou=0.7922 val_precision=0.8981 val_recall=0.8705 val_specificity=0.9987 val_mcc=0.8827 | lr=3.00e-04 time=630.1s [BEST]
+Epoch 003 | train_loss=0.0807 train_dice=0.8901 | val_loss=0.0854 val_dice=0.8932 val_iou=0.8071 val_precision=0.8920 val_recall=0.8945 val_specificity=0.9986 val_mcc=0.8919 | lr=3.00e-04 time=630.1s [BEST]
+Epoch 004 | train_loss=0.0781 train_dice=0.8935 | val_loss=0.0847 val_dice=0.8894 val_iou=0.8008 val_precision=0.8501 val_recall=0.9325 val_specificity=0.9979 val_mcc=0.8889 | lr=3.00e-04 time=630.1s 
+Epoch 005 | train_loss=0.0756 train_dice=0.8969 | val_loss=0.0793 val_dice=0.8984 val_iou=0.8155 val_precision=0.8850 val_recall=0.9121 val_specificity=0.9985 val_mcc=0.8972 | lr=3.00e-04 time=630.1s [BEST]
+Epoch 006 | train_loss=0.0733 train_dice=0.9000 | val_loss=0.0803 val_dice=0.8968 val_iou=0.8130 val_precision=0.8852 val_recall=0.9088 val_specificity=0.9985 val_mcc=0.8956 | lr=3.00e-04 time=631.6s 
+Epoch 007 | train_loss=0.0715 train_dice=0.9025 | val_loss=0.0763 val_dice=0.9030 val_iou=0.8231 val_precision=0.8903 val_recall=0.9160 val_specificity=0.9986 val_mcc=0.9018 | lr=3.00e-04 time=630.2s [BEST]
+Epoch 008 | train_loss=0.0698 train_dice=0.9049 | val_loss=0.0808 val_dice=0.9000 val_iou=0.8182 val_precision=0.9109 val_recall=0.8894 val_specificity=0.9989 val_mcc=0.8988 | lr=3.00e-04 time=630.1s 
+Epoch 009 | train_loss=0.0690 train_dice=0.9060 | val_loss=0.0775 val_dice=0.9028 val_iou=0.8228 val_precision=0.8909 val_recall=0.9150 val_specificity=0.9986 val_mcc=0.9016 | lr=3.00e-04 time=630.1s 
+Epoch 010 | train_loss=0.0673 train_dice=0.9083 | val_loss=0.0752 val_dice=0.9050 val_iou=0.8264 val_precision=0.8927 val_recall=0.9176 val_specificity=0.9986 val_mcc=0.9038 | lr=3.00e-04 time=630.1s [BEST]
+Training completed. Best validation Dice: 0.9050
+Completed architecture: deeplabv3plus
+End time: Tue Aug  4 02:59:41 MST 2026

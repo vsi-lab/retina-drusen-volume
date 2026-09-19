@@ -1,0 +1,34 @@
+Architecture: unetpp
+Array task: 1
+Node: i17n9.ocelote.hpc.arizona.edu
+Python: /groups/eungjoolee/puneethsamarla/conda_envs/eda310/bin/python
+Start time: Wed Jul 22 16:08:39 MST 2026
+Wed Jul 22 16:08:40 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   19C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Device: cpu
+Architecture: unetpp
+Encoder: resnet34
+Encoder weights: imagenet
+Training slices: 9315
+Validation slices: 2012
+Training subjects: 129
+Validation subjects: 28
+AMP enabled: False

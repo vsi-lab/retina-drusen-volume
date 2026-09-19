@@ -1,0 +1,105 @@
+============================================================
+FULL DUKE RPEDC EXPORT
+============================================================
+Started: Wed Aug 26 06:15:45 PM MST 2026
+Node: r5u20n1.puma.hpc.arizona.edu
+Python: /groups/eungjoolee/puneethsamarla/conda_envs/eda310/bin/python
+
+AMD directory: data/raw/duke_full_release/archives/AMD
+Control directory: data/raw/duke_full_release/archives/Control
+
+AMD MAT files: 269
+Control MAT files: 115
+
+Dataset count validation: PASS
+
+Starting RPEDC export...
+
+AMD files found: 269
+Control files found: 115
+
+Saved manifest: data/manifests/duke_full_rpedc_manifest.csv
+Saved failure log: data/manifests/duke_full_rpedc_manifest_failures.csv
+Exported slices: 27612
+
+Slices by group:
+group
+AMD        19269
+Control     8343
+dtype: int64
+
+Subjects by group:
+group
+AMD        269
+Control    115
+Name: subject, dtype: int64
+
+Valid-column summary:
+count    27612.000000
+mean       604.435608
+std        133.451411
+min        251.000000
+25%        523.000000
+50%        649.000000
+75%        711.000000
+max        769.000000
+Name: valid_columns, dtype: float64
+
+Mask-pixel summary:
+count    27612.000000
+mean      6932.966355
+std       3244.228729
+min       1538.000000
+25%       5020.000000
+50%       6624.000000
+75%       8083.250000
+max      53546.000000
+Name: mask_pixels, dtype: float64
+
+============================================================
+EXPORT COMMAND COMPLETED
+============================================================
+
+============================================================
+FULL EXPORT SUMMARY
+============================================================
+Manifest: data/manifests/duke_full_rpedc_manifest.csv
+Total exported slices: 27612
+Total subjects: 384
+
+Subjects by group:
+group
+AMD        269
+Control    115
+Name: subject, dtype: int64
+
+Slices by group:
+group
+AMD        19269
+Control     8343
+dtype: int64
+
+Valid columns:
+count    27612.000000
+mean       604.435608
+std        133.451411
+min        251.000000
+25%        523.000000
+50%        649.000000
+75%        711.000000
+max        769.000000
+Name: valid_columns, dtype: float64
+
+Mask pixels:
+count    27612.000000
+mean      6932.966355
+std       3244.228729
+min       1538.000000
+25%       5020.000000
+50%       6624.000000
+75%       8083.250000
+max      53546.000000
+Name: mask_pixels, dtype: float64
+
+Finished: Wed Aug 26 06:47:25 PM MST 2026
+FULL RPEDC EXPORT: SUCCESS

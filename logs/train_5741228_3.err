@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/train_rpedc_models.py", line 590, in <module>
+    main()
+  File "/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/train_rpedc_models.py", line 484, in main
+    train_metrics = run_epoch(
+  File "/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/train_rpedc_models.py", line 271, in run_epoch
+    logits = model(images)
+  File "/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/segmentation_models_pytorch/base/model.py", line 64, in forward
+    self.check_input_shape(x)
+  File "/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/segmentation_models_pytorch/base/model.py", line 53, in check_input_shape
+    raise RuntimeError(
+RuntimeError: Wrong input shape height=512, width=1000. Expected image height and width divisible by 16. Consider pad your images to shape (512, 1008).

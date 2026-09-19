@@ -1,0 +1,11 @@
+Evaluating: unet
+Node: i17n10.ocelote.hpc.arizona.edu
+Start time: Tue Aug  4 11:58:18 MST 2026
+Architecture: unet
+Subject-level mean Dice: 0.8894409314385178
+Subject-level mean IoU: 0.8082456487068963
+Subject-level mean HD95: 15.083670491658026
+Subject-level thickness MAE: 2.0118731858022545
+Saved results to: reports/segmentation/unet
+Evaluation completed: unet
+End time: Tue Aug  4 12:01:15 MST 2026

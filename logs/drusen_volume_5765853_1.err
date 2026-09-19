@@ -1,0 +1,4 @@
+/groups/eungjoolee/puneethsamarla/drusen_volume_project/src/predict_rpedc_drusen_volume.py:210: RuntimeWarning: Mean of empty slice
+  mean_map = np.nanmean(
+/groups/eungjoolee/puneethsamarla/conda_envs/eda310/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:2019: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
